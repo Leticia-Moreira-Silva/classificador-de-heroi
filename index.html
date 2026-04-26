@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Code Generator</h1>
+
+        <label>Tipo de Projeto:</label>
+        <select id="tipoProjeto">
+            <option value="site">Site</option>
+            <option value="api">API</option>
+            <option value="app">App Mobile</option>
+        </select>
+
+        <label>Linguagem:</label>
+        <select id="linguagem">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="csharp">C#</option>
+            <option value="php">PHP</option>
+            <option value="ruby">Ruby</option>
+            <option value="go">Go</option>
+        </select>
+        <label>
+            <input type="checkbox" id="login"> Sistema de Login
+        </label>
+
+        <label>
+            <input type="checkbox" id="banco"> Banco de Dados
+        </label>
+
+        <label><input type="checkbox" id="crud"> CRUD Completo</label>
+        <label>Descreva o que você quer gerar:</label>
+        <textarea id="promptLivre" placeholder="Ex: API em Node com login e JWT..."></textarea>
+        <button onclick="gerarCodigo()">Gerar Código</button>
+
+        <h2>Código Gerado:</h2>
+        <textarea id="resultado" readonly></textarea>
+
+        <button onclick="copiarCodigo()">Copiar</button>
+        <button onclick="baixarCodigo()">Download</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

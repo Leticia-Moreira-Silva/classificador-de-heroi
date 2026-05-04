@@ -3,10 +3,12 @@
 Projeto desenvolvido no desafio da Digital Innovation One (DIO) para praticar lógica de programação.
 
 📌 Sobre
+
 Classifica o nível de um herói com base na sua experiência (XP).
 
 
 💻 Exemplo
+
 O Herói de nome Leticia está no nível Ouro
 
 🧠 Regras
@@ -22,13 +24,15 @@ O Herói de nome Leticia está no nível Ouro
 
 
 🚀 Como executar
+
 Abra o arquivo `index.html` no navegador.
 
 👩‍💻 Autora
+
 Leticia Moreira Silva
 
 🌐 Deploy
 
-👉 (adicione aqui o link quando publicar no GitHub Pages)
+👉 https://github.com/Leticia-Moreira-Silva/classificador-de-heroi.git
 
 
